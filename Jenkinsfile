@@ -8,7 +8,7 @@ node {
             extensions: [[$class: 'CloneOption', noTags: false, reference: '', shallow: false]],
             userRemoteConfigs: [[url: 'https://github.com/Aabhas28/DemoJenkinsfile']],
             // Credentials ID for Git access (if required)
-            // credentialsId: 'your-credentials-id',
+             credentialsId: 'Aabhas28/Pubgmobile@28',
         ])
         echo 'checkout stage completed'
     }
